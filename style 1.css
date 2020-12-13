@@ -1,0 +1,39 @@
+body{
+    animation: bgcolor infinite 20s;
+}
+
+.item{
+    color: whitesmoke;
+    font-size: xx-large;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    text-align: center;
+    transform: translate( -50%, -50%);
+}
+@keyframes bgcolor{
+    0%
+    {
+        background:#e74c3c ;
+    }
+    20%
+    {
+        background:#d35400 ;
+    }
+    40%
+    {
+        background:#f1c40f ;
+    }
+    60%
+    {
+        background:#27ae60 ;
+    }
+    80%
+    {
+        background:#3498db ;
+    }
+    100%
+    {
+        background:#8e44ad ;
+    }
+}
